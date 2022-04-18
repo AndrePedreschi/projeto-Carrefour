@@ -273,7 +273,10 @@
 }
 
 @media(max-width:575px){
-        
+    .imgMain4{
+        display: flex;
+        transform: scale(0.9);
+    }    
     .imgMain4Oferta1{ 
         width: 375px;
         height: 158px;
