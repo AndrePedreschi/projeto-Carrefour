@@ -1,0 +1,247 @@
+.remover{
+    display: none;
+}
+
+.sticky{
+position: fixed;
+top: 0px;
+
+z-index: 20;
+
+}
+
+.body{
+    margin-top: 75px;
+}
+
+.header3respo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header3respo2{
+display: flex;
+align-items: center;
+}
+
+
+
+.header3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 15px 0px 15px 240px; */
+    padding: 0px 240px ;
+    background-color: white;
+    width: 100%;
+    height: 75px;
+
+}
+#popup{
+    background-image: url('../imgs/popup.webp');
+    width: 290px;
+    height: 178px;
+    border-radius: 10px;
+    margin-top: 65px;
+    margin-left: -100px;
+    position: absolute;
+    display: none;
+    
+}
+
+.searchBar{
+    display: flex;
+    width: 450px;
+    
+    margin-right: 15px;
+}
+.searchBar input{
+    width: 350px;
+    
+    height: 35px;
+    border: 1px solid rgb(30,91,198);
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+    
+}
+
+.searchBar a{
+    background-color: rgb(30,91,198);
+    width: 35px;
+    height:35px;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.searchBar img{
+    width: 16px;
+    height: 16px;
+}
+
+.logoCarrefourHeader3{
+    height: 35px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+
+/* Icones do header3 */
+
+.iconesHeader3{
+    display: flex;
+    margin-top: 10px;
+}
+
+.iconesHeader3 div{
+    display: flex;
+    margin-left:20px;
+}
+.iconesHeader3 a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.iconesHeader3 p{ 
+    font-size: 12px;
+}
+
+
+/* Modal do carrinho de compras */
+.carrinhoPopup {
+    position: fixed;
+    right: 10px;
+    z-index: 3;
+    display:flex;
+    gap: 20px;
+    margin-top: 70px;
+    padding: 10px 10px 0 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(228,228,228);
+    height: max-content;
+    width: 450px;
+  
+}
+#btn-estilo{
+    margin:20px auto 0px;
+    justify-content: space-between;
+}
+#btn-estilo button{
+    /* position: relative;
+    left: 100px !important; */
+    /* margin: 10px; */
+    padding: 5px;
+    height: 24px;
+    display: flex;
+    /* justify-content: center !important; */
+    align-items: center !important;
+    width: fit-content;
+    color: black;
+    font-size: 12px;
+
+}
+#btn-estilo p{
+    font-size: 16px;
+}
+.textoTituloCarrinho{
+    
+    font-size: 20px !important;
+}
+
+
+.carrinhoPopup>div{
+   margin:auto;
+}
+
+
+.carrinhoPopup select{
+    width: 428px;
+    padding-left: 5px;
+    border: 1px solid black;
+    border: 0%;
+    height: 125px;
+    
+}
+/* Estilizar o scrollbar do carrinho */
+.carrinhoPopup select::-webkit-scrollbar {
+    width: 14px; /* width of the entire scrollbar */     
+}
+  
+  .carrinhoPopup select::-webkit-scrollbar-track {
+    background: rgb(228, 228, 228);        /* color of the tracking area */
+    /* border: 1px solid black; */
+}
+  
+  .carrinhoPopup select::-webkit-scrollbar-thumb {
+    background-color: rgb(30,91,198);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid rgb(30,91,198);  /* creates padding around scroll thumb */
+}
+
+.carrinhoPopup input{
+    font-size: 11px;
+    padding: 2px;
+}
+.btnsCarrinho{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto 0px !important;
+    
+}
+/* .carrinhoPopup a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    right: 0;
+    bottom: 0;
+      
+} */
+#carrinho div{
+    background-color: aquamarine;
+    width: 15px;
+    height: 15px;
+    position:absolute;
+    right: 15px;
+    top: 110px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+
+}
+
+#contagem{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 15px;
+    height: 15px;
+    
+    border-radius: 100%;
+    position: relative;
+    top: -18px;
+    left: 24px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.sideBarTeste{
+    display: none;
+}

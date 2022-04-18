@@ -1,0 +1,65 @@
+.header4{
+    background-color: rgb(30,91,198);
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 185px; */
+    /* padding: 0 10%; */
+    padding: 0px 12% ;
+    width: 100%;  
+}
+
+.header4 a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8vw;
+
+}
+.header4 div{
+    margin: 10px;
+}
+
+
+.header4Hover:hover{
+    height: fit-content;
+    width: fit-content;
+    background: white;
+    color: black;
+    border-radius: 3px 3px 0 0;
+    padding: 2px 5px 16px 5px;
+    transition: ease-in-out 0.8s;
+}
+
+.cartaoCarrefour {
+    display: flex;
+    gap: 5px;
+    margin-top: 16px;
+    
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.cartaoCarrefour:hover {
+    height: fit-content;
+    width: fit-content;
+    background: aliceblue;
+    color: black;
+    border-radius: 3px 3px 0 0;
+    padding: 0px 5px 0px 5px;
+    transition: ease-in-out 0.8s;
+
+
+
+
+}
+
+.cartaoCarrefour img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+

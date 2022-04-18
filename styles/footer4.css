@@ -1,0 +1,46 @@
+.footer4{
+    /* padding:15px 250px 15px 235px; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px 10%;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.pagamentos>p{
+    margin-bottom: 5px;
+}
+
+.pagamentos img{
+    height: 24px;
+    width: 28px;
+}
+
+.debt{
+    display: flex;
+    flex-direction: column;
+    /* gap: 25px;
+    align-items: center; */
+    margin-top: 25px;
+    
+}
+
+.textoFooter1{
+    font-weight: bold;
+    
+    
+}
+
+.redes>p{
+    margin-bottom: 15px;
+}
+.redes>div{
+    display: flex;
+    gap: 24px;
+}
+.redes img{
+    width: 26px;
+    height: 24px;
+}
+

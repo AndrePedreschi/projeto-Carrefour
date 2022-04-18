@@ -1,0 +1,329 @@
+@media(min-width:1400px){
+}
+
+
+
+/* Bootstrap - xl */
+@media(max-width:1400px){
+    .header4{
+        padding: 0px 9% ;
+    }
+
+    .textoHeader3{
+        display: none;
+    }
+
+    .header2{
+        
+        padding-right: 10% !important;
+        padding-left: 6% !important;
+        
+        
+    }
+  
+
+    .carrosel2,
+    .carrosel3,
+    .carrosel4{
+        display: none;
+    }
+    .carrossel3-scroll,
+    .carrossel4-scroll{
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .carrosel-btn1{
+        top: 40%  !important;
+        transform: scale(0.9);
+        margin-left: 0px;
+        background-color: rgba(255, 255, 255, 1) !important;
+        border: 1px solid grey;
+        border-radius: 50%;
+        width: 60px !important;
+        height: 60px;
+        opacity: 0.9 !important;
+    }
+    
+    .carrosel-btn2{
+        
+        top: 40%  !important;
+        transform: scale(0.9);
+        margin-right: 0px;
+        background-color: rgba(255, 255, 255, 1) !important;
+        border: 1px solid grey;
+        border-radius: 50%;
+        width: 60px !important;
+        height: 60px;
+        opacity: 0.9 !important;
+    }
+
+    .seguro{
+        
+        margin: 0px auto;
+    
+    }
+
+}
+
+
+
+
+
+
+
+/* Bootstrap - lg */
+@media(max-width:1200px){
+    
+    
+    .sideBarTeste{
+        /* left: -350px;
+        transition: 3s ease-in-out; */
+        display: block;
+    }
+    .controleHeader3{
+        display: none;
+        
+    }
+
+    .listaHeader2{
+        display: none !important; 
+    }
+    .header2{
+        
+        display: flex;
+        gap: 25px;
+        justify-content: center !important;
+        
+        
+    }
+
+    .header3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .searchBar {
+       /*  margin-left: 90px; */
+      padding-left: 40px; 
+
+    }
+
+
+    .imgban{
+        background-image: url("../imgs/main1-2.jpg");
+        background-repeat: no-repeat;
+        height: 100px;
+        border-radius: 5px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+  
+   
+
+    .carrosel-btn1{
+        top: 35%  !important;
+        transform: scale(0.8);
+        margin-left: 0px;
+        background-color: rgba(255, 255, 255, 1) !important;
+        border: 1px solid grey;
+        border-radius: 50%;
+        width: 60px !important;
+        height: 60px;
+        opacity: 0.9 !important;
+    }
+    
+    .carrosel-btn2{
+        
+        top: 35%  !important;
+        transform: scale(0.8);
+        margin-right: 0px;
+        background-color: rgba(255, 255, 255, 1) !important;
+        border: 1px solid grey;
+        border-radius: 50%;
+        width: 60px !important;
+        height: 60px;
+        opacity: 0.9 !important;
+    }
+
+    
+
+}
+
+/* Bootstrap - md */
+@media(max-width:992px){
+    /* #toggle{
+    display: block;
+    } */
+    
+    .header5{
+        display: none;
+    }
+    .header4{
+        display: none;
+    }
+    .iconesHeader3{
+        display: none;
+    }
+    .footer2img{
+        background-image: url("../imgs/footer2-3.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 150px;
+        border-radius: 5px;
+        width: 100vw;
+    }
+    .carrosel-btn1{
+        top: 35%  !important;
+        transform: scale(0.7);
+        margin-left: 0px;
+        background-color: rgba(255, 255, 255, 1) !important;
+        border: 1px solid grey;
+        border-radius: 50%;
+        width: 60px !important;
+        height: 60px;
+        opacity: 0.9 !important;
+    }
+    
+    .carrosel-btn2{
+        
+        top: 35%  !important;
+        transform: scale(0.7);
+        margin-right: 0px;
+        background-color: rgba(255, 255, 255, 1) !important;
+        border: 1px solid grey;
+        border-radius: 50%;
+        width: 60px !important;
+        height: 60px;
+        opacity: 0.9 !important;
+    }
+
+    .main5Ofertas{
+        transform: scale(0.9);
+    }
+    
+
+
+
+}
+
+
+/* Bootstrap - sm */
+@media(max-width:768px){
+    .header3respo{
+        flex-direction: column;
+        
+    }
+    .header3{
+        height: 130px;
+    }
+    .carrosel-btn1{
+        top: 30%  !important;
+        transform: scale(0.65);
+        margin-left: 0px;
+        background-color: rgba(255, 255, 255, 1) !important;
+        border: 1px solid grey;
+        border-radius: 50%;
+        width: 60px !important;
+        height: 60px;
+        opacity: 0.9 !important;
+    }
+    
+    .carrosel-btn2{
+        
+        top: 30%  !important;
+        transform: scale(0.65);
+        margin-right: 0px;
+        background-color: rgba(255, 255, 255, 1) !important;
+        border: 1px solid grey;
+        border-radius: 50%;
+        width: 60px !important;
+        height: 60px;
+        opacity: 0.9 !important;
+    }
+
+    .main5Ofertas{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex-direction: column;
+    }
+    .oferta3{
+        flex-direction: column;
+    }
+    .main5img3{
+        width: 350px;
+    }
+
+    
+}
+
+/* Bootstrap - xs */
+.carrosel1, .carrosel2, .carrosel3{
+    margin: 0 auto;
+}
+
+@media(max-width:575px){
+        
+    .imgMain4Oferta1{ 
+        width: 375px;
+        height: 158px;
+    }
+    .imgMain4Oferta2{ 
+        width: 375px;
+        height: 158px;  
+    }
+    .imgMain4Oferta3{
+        width: 375px;
+        height: 158px; 
+    }
+
+
+    .carrosel-btn1{
+        top: 25%  !important;
+        
+        transform: scale(0.6);
+        margin-left: 0px;
+        background-color: rgba(255, 255, 255, 1) !important;
+        border: 1px solid grey;
+        border-radius: 50%;
+        width: 60px !important;
+        height: 60px;
+        opacity: 0.9 !important;
+    }
+    
+    .carrosel-btn2{
+        
+        top: 25%  !important;
+        transform: scale(0.6);
+        margin-right: 0px;
+        background-color: rgba(255, 255, 255, 1) !important;
+        border: 1px solid grey;
+        border-radius: 50%;
+        width: 60px !important;
+        height: 60px;
+        opacity: 0.9 !important;
+    }
+    /* .imgMain4Oferta1,.imgMain4Oferta2,.imgMain4Oferta3{
+        transform: scale(0.8);
+    
+    } */
+    .main5Ofertas{
+        width: 100%;
+        
+    }
+
+    .colun{
+        display: none !important;
+    }
+    #accordionFooter{
+        display: flex !important ;
+        flex-direction: column;
+    }
+}

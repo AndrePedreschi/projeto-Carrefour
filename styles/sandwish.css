@@ -1,0 +1,227 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    font-family: 'Roboto', sans-serif;
+} */
+
+/* Sandwish */
+#toggle{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin-right: 10px;
+    /* display: none; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* É a classe que ativa o Sandwish do side bar */
+.sideBarTeste{
+    left: -350px;
+    display: none;
+}
+.sandLista{
+    /* transition: 3s ease-in-out; */
+    display: none;
+    /* left: -560px !important; */
+}
+.sandLista2{
+    /* transition: 3s ease-in-out; */
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between; */
+    background-color: rgb(245,244,242);
+    position: fixed;
+    z-index: 30 !important;
+    top: 0px;
+    padding: 10px 5px 10px 10px;
+    height: 100vh;
+    width: 350px;
+    overflow-y: auto;
+    /* transform: translateX(0px) !important; */
+}
+
+.sandLista2::-webkit-scrollbar {
+    
+    width: 10px;  
+}
+.sandLista2::-webkit-scrollbar-track{
+    background: rgb(228, 228, 228); 
+}
+.sandLista2::-webkit-scrollbar-thumb {
+    background-color: rgb(30,91,198);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid rgb(30,91,198);  /* creates padding around scroll thumb */
+}
+
+/* Icones do header3 */
+
+.iconesSideBar{
+    display: flex;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    gap: 25px;
+
+}
+
+.iconesSideBar div{
+    display: flex;
+    margin-left:20px;
+}
+.iconesSideBar a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.iconesSideBar p{ 
+    font-size: 12px;
+}
+
+
+/* .controleIconesSidebar{
+    transform: scale(1.2);
+} */
+
+
+
+/* .cardSidebar{
+    width: 300px !important;
+    
+} */
+/* #listaSide {
+    
+    list-style: none;
+    display: none;
+    position: absolute;
+} */
+
+/* .dropdown-menu{
+    width: 350px;
+
+} */
+
+/* .btn-secondary {
+    color: black;
+    background-color: white;
+    
+    border-color: #7ca6caaf;
+    border-radius: 0;
+}
+.btn-sideDrop{
+    width: 350px;
+    justify-content: left;
+    left: -10px !important;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    
+    top:-200px;
+    left: -10px !important;
+    
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-group{
+    display: flex;
+    flex-direction: column;
+    top: -100px;
+} */
+.loginSidebar a, button{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px 5px 5px 5px;
+}
+.loginSidebar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(30,91,198);
+    
+    
+    margin: -10px -5px 0px -10px;
+    font-size: 12px;
+    height: 50px;
+}
+.loginSidebar button{
+    /* margin: -15px 12px 0px 0px; */
+    margin-right: 15px;
+}
+.loginSidebar p{
+    font-weight: bolder;
+    letter-spacing: 2px;
+
+}
+.loginSidebar>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 5px 0 0 5px; */
+}
+.imgLogin{
+    background-image: url(../imgs/login-Sidebar.png);
+    width: 45px;
+    height: 40px;
+    background-repeat: no-repeat;
+background-size: contain;
+}
+
+
+/* Efeito de criação do sandwish */
+#toggle::before{
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #00519E;
+    transition: all .3s;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 0 #00519E;
+}
+
+/* #toggle.active::before{
+    transform: translateY(0px) rotate(45deg);
+    box-shadow: 0 0 0 #00519E;
+} */
+
+#toggle::after{
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #00519E;
+    transition: all .3s;
+    transform: translateY(10px);
+    
+}
+
+/* #toggle.active::after{
+    transform: translateY(0px) rotate(-45deg);
+} */
+
+.carrinhoPopupSidebar {
+    position: fixed;
+    right: 10px;
+    z-index: 3;
+    display:flex;
+    gap: 20px;
+    /* margin-top: 200px !important; */
+    bottom: 10px;
+    padding: 10px 10px 0 10px;
+   
+    width: 450px;
+  
+}

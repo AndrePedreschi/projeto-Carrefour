@@ -1,0 +1,52 @@
+/* modal */
+.modal-body>div{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+
+.form1Img {
+    background-image: url('../imgs/logo\ carrefour.jpg');
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    position: relative;
+    right: 60px;
+    
+    
+}
+
+.form1-btn, .form2-btn{
+    margin-top: 15px;
+    display: flex;
+    gap: 25px;
+
+}
+.form1-btn button, .form2-btn button{
+    min-width: fit-content;
+
+    border: 1px solid black;
+
+}
+#botaoAcessar{
+    margin: 0px auto;
+    /* margin-left: 15px; */
+}
+
+.form2-btn{
+    margin: 0px auto 20px;
+
+}
+.tituloModal button{
+    padding-right: 40px !important;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* modal - Fim */
