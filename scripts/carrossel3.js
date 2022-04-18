@@ -37,7 +37,7 @@ for(let i=0;i<smartphone.length;i++){
     <a class="carroCard-ancora carroCard">
             <div class="carroCard-imagens">
                 <img class="carroCard-img" src=${smartphone[i].imagem} alt="">
-                <img onclick="adicionarItem(${i}, smartphone)" class="carroCard-coracao" src="./imgs/coração.png" alt="">
+                <img  class="carroCard-coracao" src="./imgs/coração.png" alt="">
             </div>
 
             <p>${smartphone[i].nome}</p>
@@ -49,6 +49,7 @@ for(let i=0;i<smartphone.length;i++){
                 <p class="carroCard-valor">R$ ${smartphone[i].valor.toFixed(2).replace("." , ",")}</p>
                 <p class="carroCard-paragrafo">em 1x no cartão ou boleto</p>
             </div>
+            <button onclick="adicionarItem(${i}, smartphone)" class="botaoAddCarrinho">Adicionar ao Carrinho</button>
     </a>` 
 
     
@@ -71,7 +72,7 @@ for(let i=0; i<5;i++){
             <div class="carroCard-imagens">
     
                 <img class="carroCard-img" src=${smartphone[i].imagem} alt="">
-                <img onclick="adicionarItem(${i}, smartphone)" class="carroCard-coracao" src="./imgs/coração.png" alt="">
+                <img  class="carroCard-coracao" src="./imgs/coração.png" alt="">
     
             </div>
     
@@ -86,6 +87,7 @@ for(let i=0; i<5;i++){
                 <p class="carroCard-valor">R$ ${smartphone[i].valor.toFixed(2).replace("." , ",")}</p>
                 <p class="carroCard-paragrafo">em 1x no cartão ou boleto</p>
             </div>
+            <button onclick="adicionarItem(${i}, smartphone)" class="botaoAddCarrinho">Adicionar ao Carrinho</button>
         </a></div>`
                
         container31.appendChild(novaDiv31.lastChild);
@@ -104,7 +106,7 @@ for(let i=5; i<10;i++){
             <div class="carroCard-imagens">
     
                 <img class="carroCard-img" src=${smartphone[i].imagem} alt="">
-                <img onclick="adicionarItem(${i}, smartphone)" class="carroCard-coracao" src="./imgs/coração.png" alt="">
+                <img  class="carroCard-coracao" src="./imgs/coração.png" alt="">
     
             </div>
     
@@ -119,6 +121,7 @@ for(let i=5; i<10;i++){
                 <p class="carroCard-valor">R$ ${smartphone[i].valor.toFixed(2).replace("." , ",")}</p>
                 <p class="carroCard-paragrafo">em 1x no cartão ou boleto</p>
             </div>
+            <button onclick="adicionarItem(${i}, smartphone)" class="botaoAddCarrinho">Adicionar ao Carrinho</button>
         </a></div>`
 
         container32.appendChild(novaDiv32.lastChild);

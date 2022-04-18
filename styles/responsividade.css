@@ -1,4 +1,7 @@
-@media(min-width:1400px){
+@media(max-width:1440px){
+    .carrosel4{
+        margin-left: 0px;
+    }
 }
 
 
@@ -20,7 +23,7 @@
         
         
     }
-  
+    
 
     .carrosel2,
     .carrosel3,
@@ -169,10 +172,10 @@
         display: none;
     }
     .footer2img{
-        background-image: url("../imgs/footer2-3.png");
+        background-image: url("../imgs/footer2-3.png") !important;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: contain !important;
         height: 150px;
         border-radius: 5px;
         width: 100vw;
