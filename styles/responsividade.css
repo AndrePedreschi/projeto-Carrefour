@@ -332,4 +332,13 @@
         display: flex !important ;
         flex-direction: column;
     }
+    .form1Img{
+        height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    position: relative;
+    right: 10px;
+    }
 }
