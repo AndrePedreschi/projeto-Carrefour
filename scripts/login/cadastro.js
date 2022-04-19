@@ -31,7 +31,7 @@ const usuarioObjeto = {
 
 botaoCriarConta.addEventListener('click', function(evento){
 
-    if (validacaoTelaDeSignup()) {
+    if (validacaoTelaDeSignup() && senhasEValido == true) {
         evento.preventDefault();
         //Normalizando as informações
         campoNomeNormalizado = retiraEspacosDeUmValor(campoNome.value);
@@ -81,8 +81,13 @@ botaoCriarConta.addEventListener('click', function(evento){
 
         //evento.preventDefault();
 
+        
+
+
     } else {
-        alert("Todos os campos devem ser informados")
+        alert("Confira todos os dados")
+        /* botaoCriarConta.removeAttribute("data-bs-toggle")
+        botaoCriarConta.removeAttribute("data-bs-target") */
         evento.preventDefault(); //Não permite que o formulário seja executado / realizado o 'submit'
     }
 
@@ -261,6 +266,7 @@ botaoCriarConta.addEventListener('click', function(){
         inputRepetirSenhaValidacao.innerText = ""
         campoRepetirSenha.style.border = ``
 
+        
         senhasEValido = true;
     }else{
         
