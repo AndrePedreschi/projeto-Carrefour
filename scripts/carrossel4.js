@@ -1,4 +1,8 @@
-//Array de objetos Carrossel 4 - Novidades
+//Para Futuras implementações
+//adicionarItemSB(${i}, novidades)
+
+
+
 let novidades = [ 
     {nome: "Dark Évora Pw Darkness 300g vários Saboras Integralmédica", imagem: "./imgs/carros4-1.png", valor_Desconto: '', desconto: '', valor: 109.90, qtd: 10 },
     {nome: "Notebook Acer Intel Core i5 8GB 256GB SSD 15,6'' IPS Windows 11", imagem: "./imgs/carros4-2.png", valor_Desconto: "3999,00", desconto: '17', valor: 3324.05, qtd: 20 },
@@ -70,7 +74,7 @@ for(let i=0; i<5;i++){
             <div class="carroCard-imagens">
     
                 <img class="carroCard-img" src=${novidades[i].imagem} alt="">
-                <img onclick="adicionarItem(${i}, novidades)" class="carroCard-coracao" src="./imgs/coração.png" alt="">
+                <img class="carroCard-coracao" src="./imgs/coração.png" alt="">
     
             </div>
     
@@ -104,7 +108,7 @@ for(let i=5; i<10;i++){
             <div class="carroCard-imagens">
     
                 <img class="carroCard-img" src=${novidades[i].imagem} alt="">
-                <img onclick="adicionarItem(${i}, novidades)" class="carroCard-coracao" src="./imgs/coração.png" alt="">
+                <img class="carroCard-coracao" src="./imgs/coração.png" alt="">
     
             </div>
     

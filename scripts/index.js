@@ -7,6 +7,11 @@ function fecha(){
 document.getElementById('popup1').addEventListener("mouseover",abre);
 document.querySelector('#popup1').addEventListener("mouseout",fecha);
 
+//document.getElementById('popup1Sidebar').addEventListener("mouseover",abre);
+//document.querySelector('#popup1Sidebar').addEventListener("mouseout",fecha);
+
+
+
 
 
 //selecionando o modal correto

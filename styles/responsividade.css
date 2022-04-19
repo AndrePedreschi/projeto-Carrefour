@@ -273,21 +273,21 @@
 }
 
 @media(max-width:575px){
-    .imgMain4{
-        display: flex;
-        transform: scale(0.9);
+    .imgMain4 p {
+        /* margin: 30px 0px !important; */
+        padding: 10px !important;
     }    
     .imgMain4Oferta1{ 
-        width: 375px;
-        height: 158px;
+        width: 300px ;
+        height: 127px ;
     }
     .imgMain4Oferta2{ 
-        width: 375px;
-        height: 158px;  
+        width: 300px ;
+        height: 127px;  
     }
     .imgMain4Oferta3{
-        width: 375px;
-        height: 158px; 
+        width: 300px ;
+        height: 127px ; 
     }
 
 

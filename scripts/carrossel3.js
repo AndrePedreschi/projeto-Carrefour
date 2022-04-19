@@ -1,3 +1,7 @@
+//para futuras implementações
+//adicionarItemSB(${i}, smartphone)
+
+
 
 let smartphone = [
     {nome: "Smartphone Samsung A32 128GB Preto 4g Tela 6.4''", imagem: "./imgs/carros3-1.png", valor_Desconto: "1639,79", desconto: "9", valor: 1487.78, qtd: 10 },
@@ -49,7 +53,7 @@ for(let i=0;i<smartphone.length;i++){
                 <p class="carroCard-valor">R$ ${smartphone[i].valor.toFixed(2).replace("." , ",")}</p>
                 <p class="carroCard-paragrafo">em 1x no cartão ou boleto</p>
             </div>
-            <button onclick="adicionarItem(${i}, smartphone)" class="botaoAddCarrinho">Adicionar ao Carrinho</button>
+            <button onclick="adicionarItem(${i}, smartphone) " class="botaoAddCarrinho">Adicionar ao Carrinho</button>
     </a>` 
 
     

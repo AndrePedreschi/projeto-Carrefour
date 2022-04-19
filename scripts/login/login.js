@@ -115,20 +115,21 @@ function loginErro(statusRecebido){
 //Validando o campo de Email
 campoEmailLogin.addEventListener('blur', function() {
     //Captura o elemento "small"
-    let inputEmailValidacao = document.getElementById('inputEmailValidacao');
+   
+    let inputEmailValidacaoLogin = document.getElementById('inputEmailValidacaoLogin');
 
     //Se o campo estiver com algum valor...
     if (campoEmailLogin.value != "") {
-        inputEmailValidacao.innerText = ""
+        inputEmailValidacaoLogin.innerText = ""
         campoEmailLogin.style.border = ``
         emailEValidoLogin = true;
 
     //Se o campo estiver sem nenhum valor...
     } else {
-        inputEmailValidacao.innerText = "Campo obrigatório";
-        inputEmailValidacao.style.color = "#EE1729EC"
-        inputEmailValidacao.style.fontSize = "8pt"
-        inputEmailValidacao.style.fontWeight = "bold"
+        inputEmailValidacaoLogin.innerText = "Campo obrigatório";
+        inputEmailValidacaoLogin.style.color = "#EE1729EC"
+        inputEmailValidacaoLogin.style.fontSize = "8pt"
+        inputEmailValidacaoLogin.style.fontWeight = "bold"
         campoEmailLogin.style.border = `1px solid #EE1729EC`
         emailEValidoLogin = false;
     }
