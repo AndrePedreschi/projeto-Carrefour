@@ -70,7 +70,8 @@ function somatoria() {
 
 }
  */
-
+localStorage.removeItem('carrinho')
+localStorage.setItem('carrinho', jason)
 
 
 
@@ -91,6 +92,8 @@ function excluirCarrinho() {
     valorTotal = [0];
     somatoria();
     jason = [];
+    localStorage.removeItem('carrinho')
+
     document.getElementById('contagem').innerText = valorTotal.length - 1;
     document.getElementById('contagemSB').innerText = valorTotal.length - 1;
 }
@@ -112,7 +115,8 @@ function excluirItemSelecionado() {
     valorTotal.splice(indice, 1,);
     somatoria();
     jason.splice(indice, 1,);
-    
+    localStorage.removeItem('carrinho')
+    localStorage.setItem('carrinho', jason)
     document.getElementById('contagem').innerText = valorTotal.length - 1;
     
 }
@@ -127,15 +131,56 @@ function excluirItemSelecionadoSB() {
     valorTotal.splice(indiceSB, 1,);
     somatoria();
     jason.splice(indiceSB, 1,);
-
+    localStorage.removeItem('carrinho')
+    localStorage.setItem('carrinho', jason)
     document.getElementById('contagemSB').innerText = valorTotal.length - 1;
 }
 
+
+//let renderizar;
 function adicionarItem(n, arrayDados) {
+
+
+  /*   jason.push(arrayDados[n]);
+    let jasonString=JSON.stringify(jason)
+
+    localStorage.removeItem('carrinho')
+    localStorage.setItem('carrinho', jasonString)
+
+    renderizar = localStorage.getItem('carrinho');
+    renderizar = JSON.parse(renderizar)
+    renderizar.forEach(function(item){
+       
+        var valor = item.valor;
+        var nome = item.nome.slice(0,35);
+    
+        
+        valorTotal.unshift(valor);
+        somatoria();
+    
+        //carrinho normal
+        var itens = document.getElementById("itens");
+        var option = document.createElement("option");
+        option.text = nome + " = R$" + valor.toFixed(2).replace("." , ",");
+        itens.add(option, itens[0]);
+    
+    
+        //carrinho sidebar
+        var itensSB = document.getElementById("itensSB");
+        var optionSB = document.createElement("option");
+        optionSB.text = nome + " = R$" + valor.toFixed(2).replace("." , ",");
+        itensSB.add(optionSB, itensSB[0]);
+    
+
+    })
+
+    document.getElementById('contagem').innerText = valorTotal.length - 1;
+    document.getElementById('contagemSB').innerText = valorTotal.length - 1; */
+
     var valor = arrayDados[n].valor;
     var nome = arrayDados[n].nome.slice(0,35);
 
-
+    
     valorTotal.unshift(valor);
     somatoria();
 
@@ -153,6 +198,9 @@ function adicionarItem(n, arrayDados) {
     itensSB.add(optionSB, itensSB[0]);
 
     jason.push(arrayDados[n]);
+    localStorage.removeItem('carrinho')
+    localStorage.setItem('carrinho', jason)
+
 
     document.getElementById('contagem').innerText = valorTotal.length - 1;
     document.getElementById('contagemSB').innerText = valorTotal.length - 1;

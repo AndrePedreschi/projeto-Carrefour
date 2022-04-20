@@ -1,7 +1,7 @@
 let nomes = document.querySelectorAll(".nome")
 let nomeUsuario="";
 
-if(!sessionStorage.getItem("jwt") == ''){
+if(!sessionStorage.getItem("jwt") == ""){
     let tokenJwtusuarioLogado = sessionStorage.getItem("jwt")
 
     let endPointUsuario = "https://ctd-todo-api.herokuapp.com/v1/users/getMe";
@@ -76,5 +76,9 @@ if(!sessionStorage.getItem("jwt") == ''){
 
 
 
-
+function limparCarrinho(){
+    if(sessionStorage.getItem("jwt") == null){
+        excluirCarrinho()
+    }
+}
     

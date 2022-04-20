@@ -52,7 +52,7 @@ for(let i=0;i<10;i++){
                 <p class="carroCard-valor">R$ ${novidades[i].valor.toFixed(2).replace("." , ",")}</p>
                 <p class="carroCard-paragrafo">em 1x no cartão ou boleto</p>
             </div>
-            <button onclick="adicionarItem(${i}, novidades)" class="botaoAddCarrinho">Adicionar ao Carrinho</button>
+            <button onclick="adicionarItem(${i}, novidades), limparCarrinho()" class="botaoAddCarrinho">Adicionar ao Carrinho</button>
     </a>` 
 
     
@@ -89,7 +89,7 @@ for(let i=0; i<5;i++){
                 <p class="carroCard-valor">R$ ${novidades[i].valor.toFixed(2).replace("." , ",")}</p>
                 <p class="carroCard-paragrafo">em 1x no cartão ou boleto</p>
             </div>
-            <button onclick="adicionarItem(${i}, novidades)" class="botaoAddCarrinho">Adicionar ao Carrinho</button>
+            <button onclick="adicionarItem(${i}, novidades), limparCarrinho()" class="botaoAddCarrinho">Adicionar ao Carrinho</button>
         </a></div>`
                
         container41.appendChild(novaDiv41.lastChild);
@@ -123,7 +123,7 @@ for(let i=5; i<10;i++){
                 <p class="carroCard-valor">R$ ${novidades[i].valor.toFixed(2).replace("." , ",")}</p>
                 <p class="carroCard-paragrafo">em 1x no cartão ou boleto</p>
             </div>
-            <button onclick="adicionarItem(${i}, novidades)" class="botaoAddCarrinho">Adicionar ao Carrinho</button>
+            <button onclick="adicionarItem(${i}, novidades), limparCarrinho()" class="botaoAddCarrinho">Adicionar ao Carrinho</button>
         </a></div>`
 
         container42.appendChild(novaDiv42.lastChild);
